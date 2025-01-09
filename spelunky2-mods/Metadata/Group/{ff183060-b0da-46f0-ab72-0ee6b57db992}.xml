@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{fbb92402-0cfa-49a9-a0b5-7d70cc8c430f}">
+		<property name="name">
+			<value>Duat wall</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{49902de2-8616-41e3-832b-060f6a67b5ae}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{eafd2221-d83c-4ceb-9f28-dcc0547c184d}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{a125ea29-3000-4e07-b9eb-a6a0ed77fb49}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{49902de2-8616-41e3-832b-060f6a67b5ae}">
+		<relationship name="effects">
+			<destination>{247942af-33f8-4922-8a38-3af634e61373}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{eafd2221-d83c-4ceb-9f28-dcc0547c184d}" />
+	<object class="MixerBusFader" id="{247942af-33f8-4922-8a38-3af634e61373}" />
+</objects>

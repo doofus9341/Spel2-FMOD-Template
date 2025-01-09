@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{be60f57a-8dc3-423b-a430-0fbe2bdd1091}">
+		<property name="name">
+			<value>Tile break</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{92aedb50-75c7-4793-a4ba-3c56b4c96dc1}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0a5b2ee0-a061-40f8-bb2d-ce2d2dc0ff25}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{5dae5b6d-7b23-4bc6-be84-8194499ecde9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{92aedb50-75c7-4793-a4ba-3c56b4c96dc1}">
+		<relationship name="effects">
+			<destination>{66c9244b-c1d7-43af-a6c1-e56a051a399d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0a5b2ee0-a061-40f8-bb2d-ce2d2dc0ff25}" />
+	<object class="MixerBusFader" id="{66c9244b-c1d7-43af-a6c1-e56a051a399d}" />
+</objects>

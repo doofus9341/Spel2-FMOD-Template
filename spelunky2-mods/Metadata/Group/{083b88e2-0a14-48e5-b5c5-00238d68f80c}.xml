@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{e891b2d3-1755-48de-bcf4-a37def6e1c57}">
+		<property name="name">
+			<value>Anubis special</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2187a223-809c-4eee-84f1-12230719b97b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c5383c14-f4d6-49d9-800f-2b39dceeb111}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e5deb978-5b92-43d7-9080-df38858a159e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2187a223-809c-4eee-84f1-12230719b97b}">
+		<relationship name="effects">
+			<destination>{1f28647b-350b-4961-94fb-08f766698a73}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c5383c14-f4d6-49d9-800f-2b39dceeb111}" />
+	<object class="MixerBusFader" id="{1f28647b-350b-4961-94fb-08f766698a73}" />
+</objects>

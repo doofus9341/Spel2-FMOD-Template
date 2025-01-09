@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{23efee8e-aa7f-49a9-9655-3e8dbb1d3911}">
+		<property name="name">
+			<value>Laser beam &amp; Spark ball</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{0323cce6-1551-48b2-af93-9dbd5956a6c1}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{2b0866b4-217d-4bb8-aaa2-64a8353c25ca}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1c84a3ac-825d-4da2-b887-d5bb0d0a4bcd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{0323cce6-1551-48b2-af93-9dbd5956a6c1}">
+		<relationship name="effects">
+			<destination>{13a219f1-9be5-4b28-8ce7-44f3ee7acb03}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{2b0866b4-217d-4bb8-aaa2-64a8353c25ca}" />
+	<object class="MixerBusFader" id="{13a219f1-9be5-4b28-8ce7-44f3ee7acb03}" />
+</objects>

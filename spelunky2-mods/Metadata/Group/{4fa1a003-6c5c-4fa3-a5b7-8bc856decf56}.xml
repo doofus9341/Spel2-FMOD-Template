@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{485efd43-f053-4470-bace-c919148c6272}">
+		<property name="name">
+			<value>Lamassu shot</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{797fe9b7-24ec-4add-9767-add140ad1743}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{493f3f1d-5861-44e3-af44-228257941303}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e5deb978-5b92-43d7-9080-df38858a159e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{797fe9b7-24ec-4add-9767-add140ad1743}">
+		<relationship name="effects">
+			<destination>{ba000eb5-5306-418f-a247-7f91a87b6450}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{493f3f1d-5861-44e3-af44-228257941303}" />
+	<object class="MixerBusFader" id="{ba000eb5-5306-418f-a247-7f91a87b6450}" />
+</objects>

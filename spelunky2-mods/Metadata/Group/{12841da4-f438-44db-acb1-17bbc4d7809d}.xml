@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{b27c4008-56d7-4257-92ca-832d2ef1cc2d}">
+		<property name="name">
+			<value>Magmaman</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{aa1ad19e-3519-42ff-bc00-c2ebedfc864b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{68fa7636-74f2-49ab-866b-9514bc29a5a0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e5deb978-5b92-43d7-9080-df38858a159e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{aa1ad19e-3519-42ff-bc00-c2ebedfc864b}">
+		<relationship name="effects">
+			<destination>{5b00c673-1b64-462d-991c-de6da5b4f2e6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{68fa7636-74f2-49ab-866b-9514bc29a5a0}" />
+	<object class="MixerBusFader" id="{5b00c673-1b64-462d-991c-de6da5b4f2e6}" />
+</objects>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{abaf58b1-66e4-42ea-91ee-d479d1ddf2c6}">
+		<property name="name">
+			<value>Sorceress shot</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{013e2b10-a92b-4042-8f1f-b650bcb60272}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c5efadbb-0489-4986-a088-d40f0205212c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e5deb978-5b92-43d7-9080-df38858a159e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{013e2b10-a92b-4042-8f1f-b650bcb60272}">
+		<relationship name="effects">
+			<destination>{617fb3c7-1ba8-4c04-a516-df4e411664ee}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c5efadbb-0489-4986-a088-d40f0205212c}" />
+	<object class="MixerBusFader" id="{617fb3c7-1ba8-4c04-a516-df4e411664ee}" />
+</objects>

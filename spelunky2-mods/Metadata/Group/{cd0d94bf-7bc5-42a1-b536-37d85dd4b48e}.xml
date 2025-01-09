@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{47f97e21-7901-4f39-9d94-af549255d019}">
+		<property name="name">
+			<value>Whip</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c814aefc-cdc6-45f0-95c7-dc303d057bef}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0d7aa48b-aa0e-44be-9714-ac632499ec7a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e5deb978-5b92-43d7-9080-df38858a159e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c814aefc-cdc6-45f0-95c7-dc303d057bef}">
+		<relationship name="effects">
+			<destination>{de5ff528-53e9-4666-ab38-79bcba6d6a53}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0d7aa48b-aa0e-44be-9714-ac632499ec7a}" />
+	<object class="MixerBusFader" id="{de5ff528-53e9-4666-ab38-79bcba6d6a53}" />
+</objects>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{66bff9f8-dc03-4396-bd87-14e6d17d6600}">
+		<property name="name">
+			<value>Quicksand</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a2499d1f-0f49-4162-abcf-50270bc15d24}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{6812ab9f-6719-4164-a158-9fa46a1b73a1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{a125ea29-3000-4e07-b9eb-a6a0ed77fb49}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a2499d1f-0f49-4162-abcf-50270bc15d24}">
+		<relationship name="effects">
+			<destination>{eb21a876-58f2-430a-83fb-8bcddcfaed3a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{6812ab9f-6719-4164-a158-9fa46a1b73a1}" />
+	<object class="MixerBusFader" id="{eb21a876-58f2-430a-83fb-8bcddcfaed3a}" />
+</objects>

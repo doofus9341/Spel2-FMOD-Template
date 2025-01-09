@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{8bfa7f68-e72b-415f-b7fc-f096c2286b75}">
+		<property name="name">
+			<value>Apep</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c7aab41f-2b78-42fe-abc7-084687ee568c}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{94ca1349-0f89-45f7-bf42-63951b92be53}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e5deb978-5b92-43d7-9080-df38858a159e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c7aab41f-2b78-42fe-abc7-084687ee568c}">
+		<relationship name="effects">
+			<destination>{2b92c06a-4a58-4a5e-9bf0-bea89e486703}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{94ca1349-0f89-45f7-bf42-63951b92be53}" />
+	<object class="MixerBusFader" id="{2b92c06a-4a58-4a5e-9bf0-bea89e486703}" />
+</objects>
