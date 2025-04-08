@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{eebaf4b0-0b71-4800-925e-fe5c4c554d17}">
+		<property name="name">
+			<value>Bomb timer</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1df9dd87-e5ed-42f8-b936-7b04b5c624ec}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{13be665f-284f-448d-b72c-6bc9679ad84f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e5deb978-5b92-43d7-9080-df38858a159e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{1df9dd87-e5ed-42f8-b936-7b04b5c624ec}">
+		<relationship name="effects">
+			<destination>{23403ee0-0117-49f2-bc99-b64e0ea504bd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{13be665f-284f-448d-b72c-6bc9679ad84f}" />
+	<object class="MixerBusFader" id="{23403ee0-0117-49f2-bc99-b64e0ea504bd}" />
+</objects>

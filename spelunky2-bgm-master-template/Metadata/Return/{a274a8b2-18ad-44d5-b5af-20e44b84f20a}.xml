@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{da42edf1-df68-475f-ac5d-c313b40d4d02}">
+		<property name="name">
+			<value>bgm_dark</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{4a7b2496-427d-43aa-9b38-d6aebc46b84c}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{232648f6-3260-43ea-be68-0cafa18af488}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{70c9607b-336d-4ac3-a476-f8914ecef97f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{4a7b2496-427d-43aa-9b38-d6aebc46b84c}">
+		<relationship name="effects">
+			<destination>{e441ddea-7823-4e57-ad8b-108a120d0cd0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{232648f6-3260-43ea-be68-0cafa18af488}" />
+	<object class="MixerBusFader" id="{e441ddea-7823-4e57-ad8b-108a120d0cd0}" />
+</objects>

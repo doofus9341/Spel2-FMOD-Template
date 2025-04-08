@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{88260c95-b842-4811-a8f9-10d4961e0b2d}">
+		<property name="name">
+			<value>torch_proximity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9e7a2969-1bf4-41ff-aaa0-8b53e4a6dc84}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3b3b2f26-0f93-4103-89c6-0f5dc7ed0f27}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3b3b2f26-0f93-4103-89c6-0f5dc7ed0f27}">
+		<property name="maximum">
+			<value>20</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

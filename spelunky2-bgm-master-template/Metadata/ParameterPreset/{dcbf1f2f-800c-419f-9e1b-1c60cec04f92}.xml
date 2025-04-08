@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{dcbf1f2f-800c-419f-9e1b-1c60cec04f92}">
+		<property name="name">
+			<value>player_depth</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9e7a2969-1bf4-41ff-aaa0-8b53e4a6dc84}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7f3073fc-a47a-448e-913c-d8eb4de10729}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7f3073fc-a47a-448e-913c-d8eb4de10729}">
+		<property name="maximum">
+			<value>20</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

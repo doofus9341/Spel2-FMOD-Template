@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{133f51d3-235f-46d6-80a0-442d7eafb996}">
+		<property name="name">
+			<value>anger_state</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9e7a2969-1bf4-41ff-aaa0-8b53e4a6dc84}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{85e31720-f2eb-4bcf-81e3-1a4e2541bb17}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{85e31720-f2eb-4bcf-81e3-1a4e2541bb17}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

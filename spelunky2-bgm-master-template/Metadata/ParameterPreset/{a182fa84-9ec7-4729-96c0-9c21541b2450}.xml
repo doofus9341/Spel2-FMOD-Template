@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a182fa84-9ec7-4729-96c0-9c21541b2450}">
+		<property name="name">
+			<value>ghost</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9e7a2969-1bf4-41ff-aaa0-8b53e4a6dc84}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a47d7a00-f282-47e6-baba-e67dfc90d200}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a47d7a00-f282-47e6-baba-e67dfc90d200}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.099999994039535522</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

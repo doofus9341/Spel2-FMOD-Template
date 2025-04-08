@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{11c238f2-225f-46c7-a62a-c221f17d932d}">
+		<property name="name">
+			<value>BGM_ducker</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{e23a873a-e678-47d3-acef-c1a09bc85e39}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c8944d92-e229-40e9-ae43-a9d6dabd02e1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{49ef4abb-0754-4df1-839a-3831083485a1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e23a873a-e678-47d3-acef-c1a09bc85e39}">
+		<relationship name="effects">
+			<destination>{a6da0d10-7072-4e1c-9f14-a35cb2857111}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c8944d92-e229-40e9-ae43-a9d6dabd02e1}" />
+	<object class="MixerBusFader" id="{a6da0d10-7072-4e1c-9f14-a35cb2857111}" />
+</objects>

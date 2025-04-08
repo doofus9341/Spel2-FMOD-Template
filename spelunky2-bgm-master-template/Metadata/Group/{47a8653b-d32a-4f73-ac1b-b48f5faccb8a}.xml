@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{b4ccbc48-b3fb-4b84-b3e4-be09f020a418}">
+		<property name="name">
+			<value>Spring trap</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f873e17f-0fbc-44a0-9883-80d46e28c9e5}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ad60df64-ee5d-41ac-95f9-75cc03c1715a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1c84a3ac-825d-4da2-b887-d5bb0d0a4bcd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f873e17f-0fbc-44a0-9883-80d46e28c9e5}">
+		<relationship name="effects">
+			<destination>{817b25ab-7891-4684-a19d-7650b94e505f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ad60df64-ee5d-41ac-95f9-75cc03c1715a}" />
+	<object class="MixerBusFader" id="{817b25ab-7891-4684-a19d-7650b94e505f}" />
+</objects>

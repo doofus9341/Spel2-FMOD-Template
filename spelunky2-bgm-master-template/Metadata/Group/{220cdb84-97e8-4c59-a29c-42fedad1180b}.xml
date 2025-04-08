@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{7a0c3459-faa8-417b-aad3-1fdf8422e7d5}">
+		<property name="name">
+			<value>Ankh</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{6b8370c2-6780-40f0-94c4-7c84dcecd8c6}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{3042e0df-3e59-4fa6-8a3b-5e8e3f9139a9}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{905e4e7e-06f9-409a-a340-bb96151138cd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{6b8370c2-6780-40f0-94c4-7c84dcecd8c6}">
+		<relationship name="effects">
+			<destination>{a7d08162-0ae6-4e7d-b028-7edbae0dfffc}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{3042e0df-3e59-4fa6-8a3b-5e8e3f9139a9}" />
+	<object class="MixerBusFader" id="{a7d08162-0ae6-4e7d-b028-7edbae0dfffc}" />
+</objects>

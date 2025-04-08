@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{08e92f63-60cf-4da6-8200-11e8a39af046}">
+		<property name="name">
+			<value>anger_proximity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9e7a2969-1bf4-41ff-aaa0-8b53e4a6dc84}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e486b11f-a672-429f-b81c-0535be374cdc}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e486b11f-a672-429f-b81c-0535be374cdc}">
+		<property name="maximum">
+			<value>30</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

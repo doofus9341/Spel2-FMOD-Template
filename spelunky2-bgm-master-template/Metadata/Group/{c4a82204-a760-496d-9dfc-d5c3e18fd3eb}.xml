@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{7d34cc7d-ad96-471c-87fe-b9b4c3e2b1e6}">
+		<property name="name">
+			<value>Destructible break</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{3b2342fc-98ca-4b00-bdc8-367957350dc1}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b10d0d4e-8e9d-41c9-8170-62d7859b24d5}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e5deb978-5b92-43d7-9080-df38858a159e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{3b2342fc-98ca-4b00-bdc8-367957350dc1}">
+		<relationship name="effects">
+			<destination>{1f4a9df6-eb5d-44fd-9c00-6d671dfbe2d4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b10d0d4e-8e9d-41c9-8170-62d7859b24d5}" />
+	<object class="MixerBusFader" id="{1f4a9df6-eb5d-44fd-9c00-6d671dfbe2d4}" />
+</objects>

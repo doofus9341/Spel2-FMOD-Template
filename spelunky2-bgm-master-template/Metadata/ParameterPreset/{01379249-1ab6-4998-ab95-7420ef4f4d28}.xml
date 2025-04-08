@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{01379249-1ab6-4998-ab95-7420ef4f4d28}">
+		<property name="name">
+			<value>restless_dead</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9e7a2969-1bf4-41ff-aaa0-8b53e4a6dc84}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{680b54d6-814f-4f23-9ccc-641fc0f0a676}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{680b54d6-814f-4f23-9ccc-641fc0f0a676}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
